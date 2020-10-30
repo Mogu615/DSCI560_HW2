@@ -16,6 +16,13 @@ python -m venv dsci560H4
 ```
 source dsci560H4/bin/activate
 ```
+```
+python3 Random_Numbers.py
+```
+## Q3 Take a screenshot of your terminal with the activated environment after running the script for the number generator.
+![image](https://github.com/Mogu615/DSCI560_HW2/blob/main/picture1.png)
+
+## Q4 Extract the the dependencies of your virtual environment
 check the exsisting dependency of empty environment, it should be empty:
 ```
 pip freeze > requirements.txt
@@ -27,7 +34,11 @@ pip install numpy
 ```
 pip install matplotlib
 ```
+
+Q6 Binder Badge
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Mogu615/DSCI560_HW2/main?filepath=HW2-Q5.ipynb)
 check the dependency after adding packagesa:
 ```
 pip freeze > requirements.txt
 ```
+
