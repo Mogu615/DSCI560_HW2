@@ -34,11 +34,12 @@ pip install numpy
 ```
 pip install matplotlib
 ```
-
-Q6 Binder Badge
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Mogu615/DSCI560_HW2/main?filepath=HW2-Q5.ipynb)
 check the dependency after adding packagesa:
 ```
 pip freeze > requirements.txt
 ```
+![image](https://github.com/Mogu615/DSCI560_HW2/blob/main/picture2.png)
+we can see the after we intsall packages, the pip freeze environement files show more dependecies.
 
+Q6 Binder Badge
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Mogu615/DSCI560_HW2/main?filepath=HW2-Q5.ipynb)
