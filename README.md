@@ -16,5 +16,18 @@ python -m venv dsci560H4
 ```
 source dsci560H4/bin/activate
 ```
-- There is no need to install any dependency for number generator script becasue it doesn't use any extra package
-
+check the exsisting dependency of empty environment, it should be empty:
+```
+pip freeze > requirements.txt
+```
+install numpy and matplotlib packages:
+```
+pip install numpy
+```
+```
+pip install matplotlib
+```
+check the dependency after adding packagesa:
+```
+pip freeze > requirements.txt
+```
